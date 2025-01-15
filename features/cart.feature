@@ -1,6 +1,5 @@
-Feature: The Internet Guinea Pig Website
-
-  Scenario Outline: As a user, I can log into the secure area
+Feature: Ebay Cart
+  Scenario Outline: Verify item can be added to Cart
 
     Given I am on the home page
     When I search for <input>
