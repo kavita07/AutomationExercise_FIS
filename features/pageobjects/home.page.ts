@@ -22,7 +22,6 @@ class HomePage extends Page {
     }
 
     public  get firstBofirstItemfromList () {
-       // return $$('a.s-item__link')[0];
        return $('ul.srp-results.srp-list.clearfix > li:first-child div.s-item__info.clearfix a.s-item__link');
     }
 
@@ -32,7 +31,6 @@ class HomePage extends Page {
 
     public get addToCartBtn () {
         return $('#atcBtn_btn_1');
-        //return $('//span[contains(text(),`Add to cart`)]');
     }
 
     public get goToCheckoutbtn () {
@@ -45,10 +43,6 @@ class HomePage extends Page {
 
 
 
-    /**
-     * a method to encapsule automation code to interact with the page
-     * e.g. to login using username and password
-     */
     public async searchItem (input: string) {
         await this.heading.isDisplayed();
         await this.searchInput.click();

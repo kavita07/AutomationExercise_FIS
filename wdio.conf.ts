@@ -130,8 +130,8 @@ export const config: WebdriverIO.Config = {
             outputDir: 'allure-results',
             disableWebdriverStepsReporting: true,
         }
-    ]
-],
+    ]    
+], 
 
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
