@@ -1,0 +1,36 @@
+{
+  "name": "automationexercise_fis",
+  "version": "1.0.0",
+  "description": "exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.ts",
+    "report": "allure generate [allure_results] && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kavita07/AutomationExercise_FIS.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "typescript",
+    "cucumber",
+    "nodejs"
+  ],
+  "author": "Kavita Chavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kavita07/AutomationExercise_FIS/issues"
+  },
+  "homepage": "https://github.com/kavita07/AutomationExercise_FIS#readme",
+  "dependencies": {
+    "@wdio/cli": "^9.5.7",
+    "allure-commandline": "^2.32.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.5.0",
+    "@wdio/cucumber-framework": "^9.5.0",
+    "@wdio/local-runner": "^9.5.7",
+    "@wdio/spec-reporter": "^9.5.0"
+  }
+}
